@@ -63,8 +63,8 @@ class NextPermutationTest {
 
     @Test
     void case9() {
-        int[] nums = {5,4,7,5,3,2};
+        int[] nums = {5, 4, 7, 5, 3, 2};
         NextPermutation.nextPermutation(nums);
-        Assertions.assertArrayEquals(new int[]{5,5,2,3,4,7}, nums);
+        Assertions.assertArrayEquals(new int[]{5, 5, 2, 3, 4, 7}, nums);
     }
 }
